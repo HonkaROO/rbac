@@ -12,8 +12,8 @@
         <div class="col-md-6">
             <div class="card shadow-sm mb-4">
                 <div class="card-body text-center">
-                    <h5 class="card-title">User Management Dashboard</h5>
-                    <p class="card-text">Manage user roles, profie and permissions as an Admin.</p>
+                    <h5 class="card-title"><h3>User Management Dashboard</h5>
+                    <p class="card-text">Manage user role and profile as Admin</p>
                     <a href="{{ route('usertool') }}" class="btn btn-primary">
                         <i class="bi bi-person-badge me-2"></i>Manage User Roles and Permissions
                     </a>
@@ -23,7 +23,7 @@
         <div class="col-md-6">
             <div class="card shadow-sm mb-4">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Home</h5>
+                    <h5 class="card-title"><h3>Return to Main Homepage</h5>
                     <p class="card-text">Return to the main landing page.</p>
                     <a href="{{ route('home') }}" class="btn btn-secondary">
                         <i class="bi bi-house-door me-2"></i>Back to Home
