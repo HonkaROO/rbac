@@ -55,4 +55,8 @@ class BookController extends Controller
             return redirect()->back();
         }
     }
+
+    public function saveNewLedgerEntry($id) {
+
+    }
 }
